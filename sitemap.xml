@@ -23,6 +23,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>http://www.flyabroad.hk/useb/</loc>
+     <lastmod>2018-07-08</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
@@ -40,13 +46,13 @@
     </url>
         
     <url>
-     <loc>http://www.flyabroad.hk/curacao/</loc>
+     <loc>http://www.flyabroad.hk/business/</loc>
      <lastmod>2018-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>http://www.flyabroad.hk/useb/</loc>
+     <loc>http://www.flyabroad.hk/curacao/</loc>
      <lastmod>2018-07-08</lastmod>
      <changefreq>daily</changefreq>
     </url>
