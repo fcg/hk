@@ -1,114 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>https://www.flyabroad.hk/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>https://www.flyabroad.hk/pnp/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/about/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/gsm/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/business/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/useb/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/curacao/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>https://www.flyabroad.hk/joboffer/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/graduate/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/graduate/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/greece/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/business/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/gsm/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/ireland/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/gti/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/peq/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/ireland/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/mb/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/joboffer/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/gti/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/js/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>https://www.flyabroad.hk/about/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/ls/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/tz/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/mb/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/tj/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/peq/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/ls/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/pnp/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>https://www.flyabroad.hk/js/</loc>
-     <lastmod>2021-02-28</lastmod>
-     <changefreq>daily</changefreq>
+         <loc>https://www.flyabroad.hk/tj/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
     </url>
-        
-    
-
+    <url>
+         <loc>https://www.flyabroad.hk/tz/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.flyabroad.hk/useb/</loc>
+         <lastmod>2021-12-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>

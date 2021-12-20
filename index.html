@@ -9,223 +9,183 @@
         <link rel="canonical" href="https://www.flyabroad.hk/">
         <link rel="shortcut icon" href="favicon.ico">
         
+        <title>飞出国</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
 
-	<title>飞出国</title>
-
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <link href="./css/base.css" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-        
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
             ga('create', 'UA-63437861-1', 'auto');
             ga('send', 'pageview');
-        </script>
-        
+        </script> 
     </head>
 
-    <body>
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">飞出国</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">首页</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">传统技术移民 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="pnp/" class="dropdown-item">加拿大技术移民</a>
+</li>
+                                    
+<li>
+    <a href="gsm/" class="dropdown-item">澳洲技术移民</a>
+</li>
+                                    
+<li>
+    <a href="useb/" class="dropdown-item">美国技术移民</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">非传统技术移民 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="joboffer/" class="dropdown-item">雇主担保</a>
+</li>
+                                    
+<li>
+    <a href="graduate/" class="dropdown-item">留学移民</a>
+</li>
+                                    
+<li>
+    <a href="business/" class="dropdown-item">商业移民</a>
+</li>
+                                    
+<li>
+    <a href="ireland/" class="dropdown-item">爱尔兰移民</a>
+</li>
+                                    
+<li>
+    <a href="peq/" class="dropdown-item">PEQ魁北克经验类移民</a>
+</li>
+                                    
+<li>
+    <a href="mb/" class="dropdown-item">MB曼省留学移民</a>
+</li>
+                                    
+<li>
+    <a href="gti/" class="dropdown-item">澳洲GTI杰出人才移民</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">飞出国项目 <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="about/" class="dropdown-item">关于飞出国</a>
+</li>
+                                    
+<li>
+    <a href="tz/" class="dropdown-item">飞出国投资移民</a>
+</li>
+                                    
+<li>
+    <a href="tj/" class="dropdown-item">飞出国团聚移民</a>
+</li>
+                                    
+<li>
+    <a href="ls/" class="dropdown-item">飞出国临时签证</a>
+</li>
+                                    
+<li>
+    <a href="js/" class="dropdown-item">飞出国技术移民</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- Main title -->
-            <a class="navbar-brand" href=".">飞出国</a>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="pnp/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
-            
-            
-                <li class="active">
-                    <a href=".">首页</a>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">传统技术移民 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="pnp/">加拿大技术移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="gsm/">澳洲技术移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="useb/">美国技术移民</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">非传统技术移民 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="joboffer/">雇主担保</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="graduate/">留学移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="business/">商业移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="ireland/">爱尔兰移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="peq/">PEQ魁北克经验类移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="mb/">MB曼省留学移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="gti/">澳洲GTI杰出人才移民</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">飞出国项目 <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        
-<li >
-    <a href="about/">关于飞出国</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="tz/">飞出国投资移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="tj/">飞出国团聚移民</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="ls/">飞出国临时签证</a>
-</li>
-
-                    
-                        
-<li >
-    <a href="js/">飞出国技术移民</a>
-</li>
-
-                    
-                    </ul>
-                </li>
-            
-            
-            </ul>
-
-            <!-- Search, Navigation and Repo links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                <li class="disabled">
-                    <a rel="next" >
-                        <i class="fa fa-arrow-left"></i> Previous
-                    </a>
-                </li>
-                <li >
-                    <a rel="prev" href="pnp/">
-                        Next <i class="fa fa-arrow-right"></i>
-                    </a>
-                </li>
-                
-            </ul>
-        </div>
-    </div>
-</div>
 
         <div class="container">
-            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
     
-        <li class="main active"><a href="#_1">飞出国，做正确的移民选择</a></li>
-        
-            <li><a href="#-">中产移民项目推荐-飞出国</a></li>
-        
-            <li><a href="#-_1">高管或企业主-飞出国</a></li>
-        
-            <li><a href="#_3">飞出国服务优势</a></li>
-        
-            <li><a href="#_4">飞出国主站</a></li>
-        
-    
-    </ul>
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#_1" class="nav-link">飞出国，做正确的移民选择</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#-" class="nav-link">中产移民项目推荐-飞出国</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#-_1" class="nav-link">高管或企业主-飞出国</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_3" class="nav-link">飞出国服务优势</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#_4" class="nav-link">飞出国主站</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#_5" class="nav-link"></a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-            <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="_1">飞出国，做正确的移民选择</h1>
 <p>飞出国，为申请人提供价值。飞出国会为申请人提供最经济，最适合的出国移民项目，是您可信任和托付的移民专家。</p>
@@ -262,19 +222,19 @@
 <h2 id="-">中产移民项目推荐-飞出国</h2>
 <p>随着常规技术移民门槛提高，越来越多的人开始选择雇主担保移民和留学移民。</p>
 <ul>
-<li><a href="./pnp">加拿大技术移民</a>和<a href="./gsm">澳洲技术移民</a>，成本最低的移民途径，但目前，无论是澳洲还是加拿大，技术移民申请条件已经今非昔比，门槛抬高了很多，境外很多申请人已经难以通过纯技术移民获得身份；</li>
-<li>美国<a href="./useb">EB1</a>杰出人才移民—各行业精英，属于杰出人才福利，不是一般人可以申请的，类似的还有澳洲124杰出人才；</li>
-<li>澳洲<a href="./gti">GTI</a>杰出人才移民，对年龄、语言和职业评估都没有影响要求，申请人所从事的行业需要属于GTI七大领域，审理周期快，成功率高，是高学历及行业高端人才移民澳洲的捷径；</li>
-<li><a href="./graduate">留学转移民</a>，存在周期长，不确定性大，机会成本高的问题。优点是启动成本低。留学移民，加拿大和新西兰相对机会更多一些，澳洲对留学生政策并不友好；</li>
-<li><a href="./joboffer">雇主担保移民</a>，合格雇主是关键，飞出国当前更多推荐BC雇主，还有大西洋四省AIPP项目，欧洲推荐<a href="./ireland">爱尔兰移民</a>；澳洲雇主担保，飞出国也有一些186及491雇主资源；新西兰技术移民目前无法一步到位拿到PR，除非具备新西兰当地符合要求的雇主offer，[新西兰人才猎头项目]应运而生；</li>
+<li><a href="pnp">加拿大技术移民</a>和<a href="gsm">澳洲技术移民</a>，成本最低的移民途径，但目前，无论是澳洲还是加拿大，技术移民申请条件已经今非昔比，门槛抬高了很多，境外很多申请人已经难以通过纯技术移民获得身份；</li>
+<li>美国<a href="useb">EB1</a>杰出人才移民—各行业精英，属于杰出人才福利，不是一般人可以申请的，类似的还有澳洲124杰出人才；</li>
+<li>澳洲<a href="gti">GTI</a>杰出人才移民，对年龄、语言和职业评估都没有影响要求，申请人所从事的行业需要属于GTI七大领域，审理周期快，成功率高，是高学历及行业高端人才移民澳洲的捷径；</li>
+<li><a href="graduate">留学转移民</a>，存在周期长，不确定性大，机会成本高的问题。优点是启动成本低。留学移民，加拿大和新西兰相对机会更多一些，澳洲对留学生政策并不友好；</li>
+<li><a href="joboffer">雇主担保移民</a>，合格雇主是关键，飞出国当前更多推荐BC雇主，还有大西洋四省AIPP项目，欧洲推荐<a href="ireland">爱尔兰移民</a>；澳洲雇主担保，飞出国也有一些186及491雇主资源；新西兰技术移民目前无法一步到位拿到PR，除非具备新西兰当地符合要求的雇主offer，[新西兰人才猎头项目]应运而生；</li>
 </ul>
 <h2 id="-_1">高管或企业主-飞出国</h2>
 <p>有钱就能移民的年代已经过去，加拿大PEI和NB都关闭了一步到位绿卡类商业移民，除了魁北克投资移民，其他都是先给工签，满足经营条件后转绿卡。澳洲也基本都是这类临签转永居项目。这些项目都要求申请人有经商履历，同时在拿到临时签证后尽快登陆对应国家开展业务，对仍然打算在国内发展的人来说是不合适的。</p>
 <p>美国EB5排期越来越久，而且项目爆出的问题越来越多，申请美国 EB5 的人已经越来越少。护照项目使用起来并不是特别方便，能够用较低成本拿一个护照更合适。</p>
 <ul>
-<li><a href="./business">商业移民</a>，适合企业主和高管，<strong>加拿大（包括魁北克）</strong> 和 <strong>澳洲商业移民</strong> 逐步提升雅思要求，先给临签，实地经营后再转永居。</li>
+<li><a href="business">商业移民</a>，适合企业主和高管，<strong>加拿大（包括魁北克）</strong> 和 <strong>澳洲商业移民</strong> 逐步提升雅思要求，先给临签，实地经营后再转永居。</li>
 <li><a href="https://tz.flyabroad.com.hk/na/antigua/">安提瓜</a>护照项目-40万美金购买房产（可以两个家庭一起合买），也可以10万美金贡献类，3-6个月全家拿护照，免签130多个国家，适合高净值人群。</li>
-<li><a href="./ireland">爱尔兰投资</a>适合200万欧元资产，投资100万欧元（或捐赠40万欧元），打算获得爱尔兰身份的申请人。重在资产配置，同时爱尔兰与英国不一般的关系让爱尔兰身份价值斐然。</li>
+<li><a href="ireland">爱尔兰投资</a>适合200万欧元资产，投资100万欧元（或捐赠40万欧元），打算获得爱尔兰身份的申请人。重在资产配置，同时爱尔兰与英国不一般的关系让爱尔兰身份价值斐然。</li>
 </ul>
 <h3 id="_2">留学转移民及雇主担保移民：</h3>
 <p>飞出国推荐可以实际工作的雇主，否则受雇主渠道，审核尺度影响，不确定性都比较大，申请人在选择高成本项目时要多方面考虑，飞出国可以更好的帮您把关。</p>
@@ -302,47 +262,105 @@
 </ul>
 <p>更多移民内容说明请参考 <a href="https://bbs.fcgvisa.com" target="_blank"  ref="noopener">飞出国论坛</a>或 <a href="https://www.flyabroad.io/" target="_blank"  ref="noopener">飞出国出入境网站</a>。</p>
 <p>需要获得相关移民及出国签证申请帮助可以通过微信联系飞出国(<code>flyabroad_hk</code>)： <a href="https://flyabroad.me/contact" target="_blank"  ref="noopener">https://flyabroad.me/contact/</a>。</p>
-<p>联系飞出国并希望飞出国给出系统方案，最便捷的方式是提交飞出国在线评估：<a href="https://pg.flyabroad.hk" target="_blank"  ref="noopener"> https://pg.flyabroad.hk </a> 。</p></div>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+<img alt="飞出国公众号" src="https://s3.fcgvisa.com/original/3X/6/4/645fef301cd6640f2938c3ba09be0cc211e641ca.png"></p>
+<h1 id="_5"><img alt="飞出国咨询微信号" src="https://s3.fcgvisa.com/original/3X/c/2/c271ca7fbc6b2eab4bef2dc9027ced793cbaa18c.png"></h1>
+<p>联系飞出国并希望飞出国给出系统方案，最便捷的方式是提交飞出国在线评估：<a href="https://pg.flyabroad.hk" target="_blank"  ref="noopener"> https://pg.flyabroad.hk </a> 。</p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>e72d9a5095c18de17265f4089e453a294b584f96</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-            
-                <center>Copyright &copy; 2005-2021 <a href="http://flyabroad.me/contact/" target="_blank">飞出国</a>，Powered by <a href="http://fcgvisa.com/" target="_blank">飞出国论坛</a> 。</center>
-            
-            <center>更详细内容请访问 <a href="http://flyabroad.io/" target="_blank">飞出国出入境</a>。需要帮助请提交<a href="http://pg.flyabroad.hk/" target="_blank">飞出国免费评估</a>。</center>
+                <p>Copyright &copy; 2005-2022 <a href="http://www.flyabroadvisa.com" target="_blank">飞出国</a>，Powered by <a href="https://bbs.fcgvisa.com/" target="_blank">飞出国论坛</a> 。</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
 
-        <script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
             </div>
         </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
     </body>
 </html>
+
+<!--
+MkDocs version : 1.2.3
+Build Date UTC : 2021-12-20 02:56:18.232476+00:00
+-->
